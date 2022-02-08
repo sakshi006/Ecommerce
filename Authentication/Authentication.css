@@ -1,0 +1,48 @@
+form{
+    max-width: 20rem;
+    margin: auto;
+    text-align: center;
+    line-height: 3rem;
+    background-color: var(--other-secondary);
+    padding: 2rem 4rem;
+    border-radius:1rem ;
+    border: 1px dashed var(--other);
+    font-weight: bold;
+}
+form:hover{
+    box-shadow: 1px 1px 18px 1px var(--other);
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-btn{
+    width: 100%;
+}
+.login-input{
+    width: auto;
+    box-shadow: 1px 1px 3px 1px var(--other);
+}
+
+label{
+    text-align: left;
+}
+.forgot-pass{
+    color: var(--blue-text);
+    cursor: pointer;
+    
+}
+
+.new-acc{
+    cursor: pointer;
+}
