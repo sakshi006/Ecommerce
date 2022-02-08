@@ -2,7 +2,7 @@ form{
     max-width: 20rem;
     margin: auto;
     text-align: center;
-    line-height: 3rem;
+    line-height: 3.5rem;
     background-color: var(--other-secondary);
     padding: 2rem 4rem;
     border-radius:1rem ;
@@ -28,6 +28,7 @@ form:hover{
 
 .login-btn{
     width: 100%;
+    padding: 0.8rem;
 }
 .login-input{
     width: auto;
@@ -41,6 +42,17 @@ label{
     color: var(--blue-text);
     cursor: pointer;
     
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remember input{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
 }
 
 .new-acc{
