@@ -72,6 +72,8 @@ body {
   left: 0.7rem;
   font-size: small;
   background-color: var(--red);
+  font-weight: bold;
+  color: var(--other-secondary);
 }
 
 .one {
