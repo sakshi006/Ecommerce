@@ -108,6 +108,7 @@ i:hover{
     border-radius: 0.8rem;
     width: 100%;
     border: none;
+    outline: none;
 }
 
 input[type=text]:focus {
