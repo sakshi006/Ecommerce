@@ -96,3 +96,8 @@ span {
   align-items: center;
   justify-items: center;
 }
+
+.card-badge{
+  margin: 0rem auto;
+  padding: 0.5rem;
+}
