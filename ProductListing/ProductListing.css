@@ -47,6 +47,11 @@
   padding: 1rem;
 }
 
+.products-head{
+    text-align: left;
+    margin: 1rem;
+    font-weight: bold;
+}
 
 
 .card-badge{
