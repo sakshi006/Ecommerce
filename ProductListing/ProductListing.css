@@ -1,0 +1,53 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+/* FILTERS BAR */
+
+.filters {
+  padding: 1rem;
+}
+
+.filter-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clear {
+  text-decoration: underline;
+}
+
+.filter-head {
+  margin: 1rem 0rem;
+}
+
+.filter-category {
+  text-align: left;
+}
+
+.filter-form {
+  margin: 1rem;
+}
+
+/* products page */
+
+.products-page {
+  background-color: var(--secondary);
+  padding: 1rem;
+}
+
+
+
+.card-badge{
+    margin: 0rem auto;
+    padding: 0.5rem;
+}
+
+.fav{
+    color: var(--grey);
+}
+.fav:hover{
+    color: var(--red);
+}
