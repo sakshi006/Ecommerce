@@ -10,7 +10,7 @@
  text-align: center;
 }
 
-h1{
+.wishlist-heading{
   margin-bottom: 2rem;
 }
 .card {
@@ -27,7 +27,7 @@ h1{
 }
 
 
-.badge-card > .update-badge {
+.card-badge > .update-badge {
     position: absolute;
     background-color: var(--primary);
     font-size: 0.6rem;
@@ -86,12 +86,7 @@ span {
 }
 
 
-.cart-btn{
-    width: 100%;
-    padding: 0.8rem;
-    border-radius: 0rem;
-    margin-top: 0.3rem;
-}
+
 
 /* grid */
 

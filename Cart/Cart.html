@@ -12,31 +12,87 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="https://kairodesigns.netlify.app/styles.css" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="./Authentication.css" />
+    <link rel="stylesheet" href="./Cart.css" />
 
     <title>Your Cart</title>
   </head>
   <body>
-    <div class="main-content">
+    <div class="main-content-ecom">
       <nav class="navbar">
         <h2 class="logo"><a href="#">KairoShop</a></h2>
         <div class="input-container">
           <i class="fas fa-search icon"></i>
-          <input class="input-field" type="text" placeholder="Search for something..."  />
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Search for something..."
+          />
         </div>
         <div class="top-links">
           <button class="btn">Login</button>
-          <div class="child">
-            <span class="badge one">10</span>
+          <div class="child-ecom">
+            <span class="badgeecom one">10</span>
             <i class="fas fa-heart"></i>
           </div>
-          <div class="child">
-            <span class="badge two">2</span>
+          <div class="child-ecom">
+            <span class="badgeecom two">2</span>
             <i class="fas fa-shopping-cart"></i>
           </div>
         </div>
       </nav>
+
+      <div class="content">
+        <h1 class="cart-heading">Your Cart</h1>
+        <div class="cart-component">
+          <div class="card horizontal">
+            <img
+              class="card-img"
+              src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/b/5/b5937dcNFTD_TWENT00008030_1.jpg?rnd=20200526195200"
+              alt="card-image"
+            />
+            <div class="product-detail">
+              <p class="product-name">Twenty Dresses by Nykaa</p>
+              <p>Black The Party Is Calling</p>
+              <p class="price">
+                Rs.1098
+                <span class="old-price">Rs.1598</span>
+              </p>
+              <span class="discount">32%off</span>
+              <div class="qty-monitor">
+                <button class="btn qty-btn">-</button>
+                <input class="qty-display" type="number" value="10" />
+                <button class="btn qty-btn">+</button>
+              </div>
+              <div class="footer">
+                <button class="btn cart-btn">
+                  <i class="fas fa-heart"></i>Move to Wishlist
+                </button>
+                <button class="btn cart-btn">
+                  <i class="fas fa-shopping-cart"></i> Remove from Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-price-details  card">
+            <h3 class="price-details-head">Price Details</h3>
+            <div class="two-items">
+              <div class="grid-items"><p>Price (2 items)</p></div>
+              <div class="grid-items"><p>Rs. 4999</p></div>
+              <div class="grid-items"><p>Discount</p></div>
+              <div class="grid-items"><p>-Rs. 1999</p></div>
+              <div class="grid-items"><p>Delivery Charges</p></div>
+              <div class="grid-items"><p>Rs. 499</p></div>
+              <div class="grid-items"><h3 class="price-details-head">Total Amount</h3></div>
+              <div class="grid-items"><h3 class="price-details-head">Rs. 3499</h3></div>
+            </div>
+            <p>You will save Rs. 1999 on this order!</p>
+            <button class="btn cart-btn">Place Your Order</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
