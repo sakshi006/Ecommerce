@@ -11,9 +11,10 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="https://kairodesigns.netlify.app/styles.css" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="./Authentication.css" />
+    <link rel="stylesheet" href="../Wishlist/Wishlist.css" />
+    <link rel="stylesheet" href="./ProductListing.css" />
 
     <title>Products</title>
   </head>
@@ -23,7 +24,11 @@
         <h2 class="logo"><a href="#">KairoShop</a></h2>
         <div class="input-container">
           <i class="fas fa-search icon"></i>
-          <input class="input-field" type="text" placeholder="Search for something..."  />
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Search for something..."
+          />
         </div>
         <div class="top-links">
           <button class="btn">Login</button>
@@ -37,6 +42,390 @@
           </div>
         </div>
       </nav>
+
+      <div class="content product-grid">
+        <div class="filters">
+          <div class="filter-heading">
+            <h3 class="filter-head main">Filters</h3>
+            <p class="filter-head clear">Clear</p>
+          </div>
+          <form class="filter-form">
+            <div class="filter-category --price">
+              <label for="price"><h3 class="filter-head">Price</h3> </label>
+              <input
+                type="range"
+                name="price"
+                id="price"
+                min="0"
+                max="500000"
+                value="50"
+              />
+            </div>
+            <div class="filter-category --category">
+              <h3 class="filter-head">Category</h3>
+              <input type="checkbox" id="men" name="men" value="men" />
+              <label for="men">Men Clothing</label><br />
+              <input type="checkbox" id="women" name="women" value="women" />
+              <label for="women">Women Clothing</label>
+            </div>
+            <div class="filter-category --Rating">
+              <h3 class="filter-head">Rating</h3>
+              <input
+                type="radio"
+                id="four"
+                name="rating"
+                value="4 Stars & above"
+              />
+              <label for="four">4 Stars & above</label><br />
+              <input
+                type="radio"
+                id="three"
+                name="rating"
+                value="3 Stars & above"
+              />
+              <label for="three">3 Stars & above</label> <br />
+              <input
+                type="radio"
+                id="two"
+                name="rating"
+                value="2 Stars & above"
+              />
+              <label for="two">2 Stars & above</label><br />
+              <input
+                type="radio"
+                id="one"
+                name="rating"
+                value="1 Stars & above"
+              />
+              <label for="one">1 Stars & above</label>
+            </div>
+            <div class="filter-category --Sortby">
+              <h3 class="filter-head">Sort By</h3>
+              <input
+                type="radio"
+                id="lowtohigh"
+                name="sortby"
+                value="Low to High"
+              />
+              <label for="lowtohigh">Low To High</label><br />
+              <input
+                type="radio"
+                id="hightolow"
+                name="sortby"
+                value="High to Low"
+              />
+              <label for="hightolow">High To Low</label>
+            </div>
+          </form>
+        </div>
+        <div class="products-page">
+          <div class="products-head">Showing All Products <small>(Showing 13 products)</small></div>
+          <div class="wishlist-grid">
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge cardtext">
+                   <span class="update-badge">OUT OF STOCK!</span>
+                   <img class="card-img" src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/7/a79a7dcNFTD_TWENT00007995_1.jpg?rnd=20200526195200" alt="card-image"  />
+                   <div class="product-detail">
+                     
+                      <p>GRU INC.</p>
+                      <p>Yellow color Happy Minion</p>
+                      <!-- <span class="rating"> <i class="fas fa-star"></i>4.5</span>   -->
+                             
+                      <div class="footer"> 
+                         <p class="price">Rs.1098 
+                            <span class="old-price">Rs.1598</span>
+                            <span class="discount">32%off</span>
+                         </p>                
+                      </div>  
+                      <button class="  cart-btn disabled">Add to Cart</button>  
+                   </div>
+              </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+              <div class="card card-badge cardtext">
+                <span class="update-badge">OUT OF STOCK!</span>
+                <img class="card-img" src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/k/a/kazo-123015evg_1_3c3e68b1.jpg?rnd=20200526195200">
+                  
+                   <p>GRU INC.</p>
+                   <p>Yellow color Happy Minion</p>
+                   <!-- <span class="rating"> <i class="fas fa-star"></i>4.5</span>   -->
+                          
+                   <div class="footer"> 
+                      <p class="price">Rs.1098 
+                         <span class="old-price">Rs.1598</span>
+                         <span class="discount">32%off</span>
+                      </p>                
+                   </div>  
+                   <button class="  cart-btn disabled">Add to Cart</button>  
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card card-badge">
+                  <span class="update-badge">Trending!</span>
+                  <span class="fav"> <i class="fas fa-heart"></i></span>
+                  <img
+                    class="product-card-image"
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/f/afd1b67Forever-27154901_1.jpg?rnd=20200526195200"
+                    alt="card-image"
+                  />
+                  <div class="product-detail">
+                    <p>Forever New</p>
+                    <p>Norah Wrap Skater Dress</p>
+
+                    <div class="footer">
+                      <p class="price">
+                        Rs.1098
+                        <span class="old-price">Rs.1598</span>
+                        <span class="discount">32%off</span>
+                      </p>
+                    </div>
+                    <button class="btn cart-btn">Add to Cart</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
