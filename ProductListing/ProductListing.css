@@ -66,3 +66,16 @@
 .fav:hover{
     color: var(--red);
 }
+
+
+/* respnosiveness */
+
+@media screen and (max-width:848px){
+    .filters{
+        display: none;
+    }
+
+    .product-grid{
+        grid-template-columns: 100%;
+    }
+}
