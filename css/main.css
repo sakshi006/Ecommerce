@@ -61,7 +61,7 @@ body {
   align-items:center;
   margin-right: 2rem;
 }
-.child {
+.child-ecom {
   margin: 1rem;
   position: relative;
   font-size: large;
@@ -134,4 +134,14 @@ i:hover{
 
   .content{
       margin-top: 8rem;
+      text-align: center;
   }
+
+
+/* buttons stylesss */
+  .cart-btn{
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0rem;
+    margin-top: 0.3rem;
+}
