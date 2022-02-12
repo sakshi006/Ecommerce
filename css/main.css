@@ -45,6 +45,19 @@ body {
     text-decoration: none;
     color: var(--primary);
 }
+
+.navbar .top-links a{
+  color: var(--font);
+}
+
+.navbar .top-links .fa-heart:hover{
+  color: var(--fav);
+}
+
+.navbar .top-links .fa-shopping-cart:hover{
+  color: var(--blue-text);
+}
+
 /* nav btn ends */
 .logo{
     margin-left: 2rem;

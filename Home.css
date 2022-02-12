@@ -1,0 +1,86 @@
+.content {
+  max-width: 80%;
+  text-align: center;
+  margin: 8rem auto;
+}
+
+.top-display {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+
+.top-display-img {
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.card-badge {
+  position: relative;
+  opacity: 0.8;
+  width: 10rem;
+  color: var(--font);
+}
+
+.text-over {
+  position: absolute;
+  top: 4.5rem;
+  font-weight: bold;
+  background-color: var(--secondary);
+  width: 100%;
+}
+
+.text-over:hover {
+  box-shadow: 2px 1px 8px 1px var(--primary);
+  text-shadow: 2px 2px 2px var(--primary);
+  cursor: pointer;
+}
+
+/* top display ends */
+
+/* main-slider */
+
+.main-slider {
+  align-items: center;
+}
+
+.main-slider-img {
+  margin: 0rem;
+  margin-top: 1rem;
+}
+
+/* main slider ends */
+
+/* bottom section */
+
+.bottom-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardcom{
+    margin: 1rem 0rem;
+}
+
+.product-detail{
+    padding: 0.3rem;
+}
+
+.footer {
+  width: 10ch;
+  line-height: 1.5rem;
+}
+
+.horizontal {
+  max-width: fit-content;
+}
+
+.horizontal .footer {
+  margin-top: 2.5rem;
+}
+
+
+/* footer */

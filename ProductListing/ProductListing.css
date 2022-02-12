@@ -53,6 +53,9 @@
     font-weight: bold;
 }
 
+.product-card-image{
+    height: 15.5rem;
+}
 
 .card-badge{
     margin: 0rem auto;
