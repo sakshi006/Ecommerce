@@ -32,19 +32,25 @@ A Homepage which displays various product categories available, offers, options,
 ### ProductList
 
 ProductList enlists all the different variety of products available. User can also filer the products based on the filters available.
-Items can be filtered based on :
--Ratings
--Price
--Category
+There are -multiple filters on the product listing page including,
+- Price: A radio button to sort from low to high & high to low.
+- Category: A checkbox with various categories according to the theme.
+- Ratings: A slider for ratings.
 The items can be sorted based on price range.
+- A button to clear filters from where I can clear all the applied filters.
+
+
+On the product cards, two buttons are present,
+- Add to Cart
+- Add to Wishlist
+
 ![productList-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/productList.gif)
 
 ---
 
 ### Authentication
-
-The user can signup into their account if they are already not a member.
-The user can login into their account if they are a member and are revisitng their profile.
+- A sign-up page from where user can sign-up using my email, first name, last name, password & confirm password.
+- A login page from where I can log in using my email & password.
 
 ![authentication-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/authentication.gif)
 
@@ -52,7 +58,17 @@ The user can login into their account if they are a member and are revisitng the
 
 ### Cart
 
-A cart page to show all the products available in the cart and the total cart amount.
+From the navbar, User can navigate to the cart where all the products that he/she wants to buy are mentioned.
+
+
+On the product card,
+- User can see the quantity of a particular product.
+- User can Increase or Decrease the quantity of a particular product.
+- User can Remove the product from the cart
+- User can Add the product to the Wishlist
+
+
+User can see the price details card of the cart containing a button to checkout which will show the total price of the products with its quantity.
 
 ![productList-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/cart.gif)
 
@@ -60,7 +76,12 @@ A cart page to show all the products available in the cart and the total cart am
 
 ### WishList
 
-A Wishlist page to show all the products that the user have wishlisted.
+From the navbar, user can navigate to my wishlist where all the products that I would like to buy are mentioned.
+
+
+On the product card,
+- User can remove the item from the wishlist
+- Add the item to the cart
 
 ![productList-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/wishlist.gif)
 
