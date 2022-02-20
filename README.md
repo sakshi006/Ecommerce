@@ -23,7 +23,9 @@ Demonstration Video for individual pages is available for reference.
 
 A Homepage which displays various product categories available, offers, options, etc. customers can choose from.
 
-###### As of now, user can redirect to productListing page only when "women category" is clicked.
+![home-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/homepage.gif)
+
+##### As of now, user can redirect to productListing page only when "women category" is clicked.
 
 ---
 
@@ -35,6 +37,7 @@ Items can be filtered based on :
 -Price
 -Category
 The items can be sorted based on price range.
+![productList-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/productList.gif)
 
 ---
 
@@ -42,11 +45,16 @@ The items can be sorted based on price range.
 
 The user can signup into their account if they are already not a member.
 The user can login into their account if they are a member and are revisitng their profile.
+
+![authentication-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/authentication.gif)
+
 ---
 
 ### Cart
 
 A cart page to show all the products available in the cart and the total cart amount.
+
+![productList-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/cart.gif)
 
 ---
 
@@ -54,6 +62,7 @@ A cart page to show all the products available in the cart and the total cart am
 
 A Wishlist page to show all the products that the user have wishlisted.
 
+![productList-gif](https://github.com/sakshi006/Ecommerce/blob/development/assets/wishlist.gif)
 
 
 ---
